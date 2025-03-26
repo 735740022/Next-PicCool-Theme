@@ -1,8 +1,4 @@
-<div align="center">
-  <img src="https://img2.baidu.com/it/u=3873968970,1711612339&fm=253&fmt=auto&app=120&f=JPEG?w=1016&h=500" 
-       alt="Next Theme" 
-       width="70%"/>
-</div>
+![Next Theme](https://img.doooor.com/img/forum/202408/02/100452o049o0g41zj30omd.jpg)
 # 🎨 Next-PicCool-Theme  
 ✨ *Next Theme出品的WordPress免费素材主题*  
 Tag：Next Theme | PicCool Theme | WordPress主题 | WordPress图片主题 | WordPress素材主题 | WordPress免费主题 | WordPress主题
