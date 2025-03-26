@@ -1,0 +1,246 @@
+{
+    "key": "group_5a39d2e1181e9",
+    "title": "SEO策略",
+    "fields": [
+        {
+            "key": "field_5a39d36d965cb",
+            "label": "首页SEO设置",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a39d380965cc",
+            "label": "TITLE",
+            "name": "sytitle",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a39d39e8bef6",
+            "label": "KEYWORDS",
+            "name": "sykeywords",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a39d3af8bef7",
+            "label": "DESCRIPTION",
+            "name": "sydescription",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5a39d44847790",
+            "label": "通用SEO设置",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a39d460b34cd",
+            "label": "网站名称",
+            "name": "seowzbt",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a39d7a449d15",
+            "label": "页面名和网站名之间分隔符号",
+            "name": "seofgf",
+            "type": "text",
+            "instructions": "例如 |  -  \/  _  等等",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5a3a291cb3e5c",
+            "label": "结构说明",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "根据多年的SEO经验，页面名+网站名 的格式最合适网站关键词优化！\r\n该经验得到《SEO每日一贴》作者Zac 昝辉的认可！",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5a3a211d1bf1a",
+            "label": "自动描述",
+            "name": "seozdms",
+            "type": "button_group",
+            "instructions": "在页面未设置description时，文章页面自动将文章前200个字符作为description信息",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no": "否",
+                "yes": "是"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5a3a26cac55ce",
+            "label": "自动关键词",
+            "name": "seozdgjc",
+            "type": "button_group",
+            "instructions": "在页面未设置keywords时，文章页面自动将标签作为keywords的信息。",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no": "否",
+                "yes": "是"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5a3a2ad83bf09",
+            "label": "SEO优化建议",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a3a2aedb3db4",
+            "label": "SEO优化建议",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "1、文章的首段内容至关重要，建议用心去写；\r\n\r\n2、建议开启自动描述和自动关键词的功能；为文章添加标签是一个很好的习惯；标签从而可以触发出更多相关文章出来，利于优化；\r\n\r\n3、文章中尽量多出现要优化的关键词，说堆砌也可以，但是不堆砌是肯定不行的，一般出现次数在3-5次即可；\r\n\r\n4、可以使用【自动锚文本】类的插件做全站关键词锚文本的布局，效果会更好，不要单独的为每篇文章里的关键词手动设置链接，累人坚持不长久，不如自动布局；\r\n\r\n5、如想放弃该一套SEO优化系统，想装别的SEO辅助类的插件的，该系统就可以完全忽略，并去主题的header.php里去掉相关调用；",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "seo-settings"
+            }
+        ]
+    ],
+    "menu_order": 94,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1663049730
+}

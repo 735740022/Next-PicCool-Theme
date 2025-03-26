@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 双重跳转机制 -->
+    <meta http-equiv="refresh" content="1.5;url=https://www.nextok.com" />
+    <title>安全跳转中 - 请稍候</title>
+    <style>
+      :root {
+        --primary: #2c3e50;
+        --accent: #6c5ce7;
+        --bg: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg);
+        font-family: "Segoe UI", "微软雅黑", sans-serif;
+        animation: fadeIn 0.6s ease;
+      }
+
+      .container {
+        padding: 2.5rem;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 18px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+        backdrop-filter: blur(12px);
+        text-align: center;
+      }
+
+      .loader {
+        width: 60px;
+        height: 60px;
+        border: 3px solid rgba(108, 92, 231, 0.2);
+        border-top-color: var(--accent);
+        border-radius: 50%;
+        margin: 1.5rem auto;
+        animation: spin 1.2s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(15px);
+        }
+      }
+
+      .status-text {
+        color: var(--primary);
+        font-size: 1.4rem;
+        margin: 1.2rem 0;
+        letter-spacing: 0.5px;
+      }
+
+      .manual-link {
+        display: inline-block;
+        padding: 8px 20px;
+        background: var(--accent);
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+      }
+
+      .manual-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+      }
+
+      .countdown {
+        color: #6c757d;
+        margin: 1rem 0;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="loader"></div>
+      <p class="status-text">正在安全连接到目标网站</p>
+      <p class="countdown">自动跳转倒计时：<span id="counter">1.5</span>秒</p>
+      <a href="https://www.nextok.com" class="manual-link">立即访问</a>
+    </div>
+
+    <!-- 三重跳转保障 -->
+    <script>
+      // 主跳转方案（1.5秒）
+      setTimeout(() => {
+        window.location.replace("https://www.nextok.com");
+      }, 1500);
+
+      // 降级处理（3秒后备方案）
+      setTimeout(() => {
+        window.location.href = "https://www.nextok.com";
+      }, 3000);
+
+      // 动态倒计时显示
+      let remain = 1.5;
+      const updateInterval = setInterval(() => {
+        remain -= 0.1;
+        document.getElementById("counter").textContent = remain.toFixed(1);
+        if (remain <= 0) clearInterval(updateInterval);
+      }, 100);
+    </script>
+  </body>
+</html>

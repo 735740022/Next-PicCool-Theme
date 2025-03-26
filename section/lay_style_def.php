@@ -1,0 +1,1 @@
+<?php the_post_thumbnail(array(980, 610, true)); ?>

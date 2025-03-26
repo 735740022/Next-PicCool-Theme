@@ -1,0 +1,425 @@
+{
+    "key": "group_59deeb0e448e1",
+    "title": "系统级优化清理",
+    "fields": [
+        {
+            "key": "field_5a07f44b92d1e",
+            "label": "【重要说明】",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "主题安装启动后，建议将这里全部都勾选上，使用起来才会更顺滑！！！",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_59deeb2d5c622",
+            "label": "仪表盘清理",
+            "name": "ybpql",
+            "type": "true_false",
+            "instructions": "仪表盘根本没用，不如清理了它",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def339f2f7e",
+            "label": "去除Category",
+            "name": "nocg",
+            "type": "true_false",
+            "instructions": "固定连接中有category字眼，碍眼也不利于优化，建议开启，即可去除，该功能是通过某种插件移植实现，所以，本身就安装了某些去除了category的插件的话，再开启该设置会导致网站打不开，解决方法是 删除你装的类似去除category的插件。",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def475e6fe7",
+            "label": "禁止FEED",
+            "name": "nofeed",
+            "type": "true_false",
+            "instructions": "随着越来越多的feed平台关闭，加之feed成了被采集的捷径，建议禁止掉。但，如果你是内容站，需要通过feed和各大网站有合作互通的关系，就不能开启该设置了。",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_61dadb118426f",
+            "label": "去除古腾堡",
+            "name": "remove_block",
+            "type": "true_false",
+            "instructions": "新的古腾堡编辑器会提供一个block.js，可用也可不用，建议开启禁用block。",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def675589db",
+            "label": "关闭Pingback",
+            "name": "pingback",
+            "type": "true_false",
+            "instructions": "pingback很烦人，听我一句劝，必须关闭",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def6c152b96",
+            "label": "图片自动ALT",
+            "name": "picalt",
+            "type": "true_false",
+            "instructions": "让文章内图片自动alt，十分利于SEO优化",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def7475d522",
+            "label": "自动nofollow",
+            "name": "nofollow",
+            "type": "true_false",
+            "instructions": "让文章里所有站外链接都自动加上nofollow",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def81994fc0",
+            "label": "中文名附件",
+            "name": "cnpic",
+            "type": "true_false",
+            "instructions": "中文名附件，上传到网站，文件名自动md5形式更名",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def8bffc022",
+            "label": "SMTP发信设置",
+            "name": "smtp",
+            "type": "true_false",
+            "instructions": "通过smtp发信，可以解决网站发信失败的问题",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59def8e9ef0c2",
+            "label": "SMTP设置",
+            "name": "smtpsz",
+            "type": "group",
+            "instructions": "通常设置好在里后，发信依然失败的唯一原因就是 设置参数有误！",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_59def8bffc022",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_59df033436fa4",
+                    "label": "From (你的邮箱)",
+                    "name": "smtpfrom",
+                    "type": "email",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_59df0256e6db3",
+                    "label": "From Name (昵称)",
+                    "name": "smtpname",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59df02a036fa0",
+                    "label": "SMTP Host (服务器地址)",
+                    "name": "smtphost",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59df02d536fa1",
+                    "label": "Port (端口)",
+                    "name": "smtpdk",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59df034e36fa5",
+                    "label": "SMTPSecure(加密方式)",
+                    "name": "smtpjm",
+                    "type": "text",
+                    "instructions": "tls or ssl",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59df02ee36fa2",
+                    "label": "Username (账号)",
+                    "name": "smtpzh",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59df031736fa3",
+                    "label": "Password (密码)",
+                    "name": "smtpmm",
+                    "type": "password",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_59df20f5edc86",
+            "label": "禁止顶部工具条",
+            "name": "topbar",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_59df216562ff2",
+            "label": "登录后跳转页面",
+            "name": "loginto",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        },
+        {
+            "key": "field_622c1ff380adb",
+            "label": "登陆提醒",
+            "name": "login_tx",
+            "type": "true_false",
+            "instructions": "将用户登录后台的记录发送邮件给管理员",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "开启",
+            "ui_off_text": "关闭"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "clear-settings"
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "主题选项里优化部分开关",
+    "show_in_rest": 0,
+    "modified": 1741226880
+}
