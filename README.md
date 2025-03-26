@@ -1,5 +1,6 @@
 # 🎨 Next-PicCool-Theme  
 ✨ *Next Theme出品的WordPress免费素材主题*  
+Tag：Next Theme | PicCool Theme | WordPress主题 | WordPress图片主题 | WordPress素材主题 | WordPress免费主题 | WordPress主题
 
 ---
 
