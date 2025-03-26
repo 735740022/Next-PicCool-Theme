@@ -1,6 +1,6 @@
 ![Next Theme](./logo.png)
 # 最新主题作品：Pixel素材主题，[快速查看](https://www.nextok.com)
-官网：www.nextok.com
+官网：https://www.nextok.com   Pixel主题介绍：www.nextok.com/shop/31.html
 ## Pixel主题 演示图片
 ![image](https://github.com/user-attachments/assets/a1fed484-b620-4ff3-b4d8-b22974d07a72)
 ![image](https://github.com/user-attachments/assets/ad6ef1e1-d9d0-4af5-90e1-82bb6e7a3640)
